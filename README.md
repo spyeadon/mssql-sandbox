@@ -4,7 +4,6 @@ This repo is to help people get started with running mssql locally in a docker-c
 
 ## Getting Started
 
----
 - Run `./start.sh` to:
   1. Stop & kill a running container if applicable
   2. Build the image if it isn't available locally
@@ -12,3 +11,8 @@ This repo is to help people get started with running mssql locally in a docker-c
 
 - Run `./build.sh` to build the image defined in the `Dockerfile`
 - Run `./stop.sh` to stop the running container
+
+###OR
+
+- Run `docker-compose up -d` to start the container
+- Run `docker-compose down` to stop the container
